@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    color: rgb(9, 10, 13);
+    text-align: center;
+    text-decoration: none;
+    background-position: center;
+}
+
+.card{
+    text-align: center;
+   margin-left: 380px;
+   margin-top: 50px;
+   height: 400px;
+ background-color: rgb(216, 222, 232);
+  
+}
+
+.h{
+ color: white;
+}
+.image{
+    width: 90px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+
+.img{
+    width: 120px;
+    height:100px;
+   margin-left: 20px;
+}
+.card-text{
+    font-size:smaller;
+    color: rgb(22, 30, 30);
+}

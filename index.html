@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<body  background="https://images.pexels.com/photos/1019991/pexels-photo-1019991.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1019991.jpg&fm=jpg ">
+  
+        <div class="container">
+            
+          
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <h1 class="h text-center ">Weather App</h1>
+                    <h6 class="h text-center ">Check the weather condition </h6>
+                    <div class="d-flex">
+                        
+                          
+                            <input id="input_name" type="text" placeholder="enter the place name " class="form-control ">
+                            <input  onclick="search()" type="button"value="search" class="btn btn-light  ms-3 " >
+                            <input  onclick="clearAll()" type="button"value="Reset" class="btn btn-light ms-3 " >
+
+                           
+
+                        </div>
+                      
+
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="col-md-6">
+                       
+                        <div id="result"></div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        
+</body>
+<script src="weather.js">
+  
+    
+
+</script>
+</html>
+
